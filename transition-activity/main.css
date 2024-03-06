@@ -16,6 +16,8 @@ img {
 }
 
 button {
+  background-color: ghostwhite;
+
   padding: 1em;
   margin: .2em;
   font-family: 'Josefin Sans', sans-serif;
@@ -24,4 +26,8 @@ button {
 
 button:hover {
   background-color: cornflowerblue;
+  transition-property: background-color;
+  transition-duration: 2s;
+  color:white;
+  
 }
